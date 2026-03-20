@@ -275,7 +275,7 @@
   .lang-toggle {
     display:flex; align-items:center; gap:2px;
     background:var(--bg); border:1px solid var(--border);
-    padding:3px; margin-left:20px; flex-shrink:0;
+    padding:3px; flex-shrink:0;
   }
   .lang-btn {
     font-size:10px; font-weight:600; letter-spacing:.14em; text-transform:uppercase;
@@ -321,13 +321,13 @@
     <li><a href="#opportunity" data-id="nav-opp">Opportunity</a></li>
     <li><a href="#network" data-id="nav-network">Network</a></li>
     <li><a href="/cdn-cgi/l/email-protection#ddb4b3bbb29db0b8afbcabb4f3beb5" data-id="nav-contact" class="nav-cta">Contact</a></li>
-    <li>
-      <div class="lang-toggle">
-        <button class="lang-btn active" id="btn-en" onclick="setLang('en')">EN</button>
-        <button class="lang-btn" id="btn-ko" onclick="setLang('ko')">KO</button>
-      </div>
-    </li>
   </ul>
+  <div class="lang-toggle">
+    <button class="lang-btn active" id="btn-en" onclick="setLang('en')">EN</button>
+    <button class="lang-btn" id="btn-ko" onclick="setLang('ko')">KO</button>
+    <button class="lang-btn" id="btn-de" onclick="setLang('de')">DE</button>
+    <button class="lang-btn" id="btn-fr" onclick="setLang('fr')">FR</button>
+  </div>
 </nav>
 
 <!-- HERO — white -->
@@ -348,7 +348,7 @@
       </div>
     </div>
     <h1 class="hero-h1" data-id="hero-h1">
-      Bridging Korea's<br>
+      Bridging Korea\'s<br>
       <strong>Space Technology</strong><br>
       with <span class="acc">European Industry</span>
     </h1>
@@ -398,7 +398,7 @@
         <div class="reveal">
           <div class="eye"><div class="ebar"></div><span class="etxt" data-id="about-eye">About Meravi</span></div>
           <h2 class="h2" data-id="about-h2">A Strategic <strong>Bridge</strong><br>in the New Space Economy</h2>
-          <p class="para" data-id="about-p1">Meravi is a strategic international partner connecting Korean space and deep‑tech innovators with Europe's aerospace industry, space agencies, and private capital.</p>
+          <p class="para" data-id="about-p1">Meravi is a strategic international partner connecting Korean space and deep-tech innovators with Europe\'s aerospace industry, space agencies, and private capital.</p>
           <p class="para" style="margin-top:12px;" data-id="about-p2">Our founders combine expertise across global finance, energy and telecommunications ecosystem in Switzerland.</p>
           <div class="pillars">
             <div class="pillar"><span class="pi">🏔</span><div class="pt" data-id="about-p1-title">Swiss Base</div><div class="pd" data-id="about-p1-desc">Political neutrality and proximity to European aerospace clusters</div></div>
@@ -572,7 +572,7 @@
           <div style="font-size:22px;margin-bottom:10px;">🚀</div>
           <div style="font-size:11px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--red);margin-bottom:8px;" data-id="ins1-label">Strategic Partner</div>
           <div style="font-size:17px;font-weight:700;color:var(--navy);margin-bottom:8px;" data-id="ins1-t">Space Strategy Experts</div>
-          <p style="font-size:14px;color:var(--mid);line-height:1.65;margin:0;" data-id="ins1-d">Orbiting your growth with strategic space advantage — we position your company as the partner of choice in Europe's aerospace ecosystem.</p>
+          <p style="font-size:14px;color:var(--mid);line-height:1.65;margin:0;" data-id="ins1-d">Orbiting your growth with strategic space advantage — we position your company as the partner of choice in Europe\'s aerospace ecosystem.</p>
         </div>
         <div style="border:1px solid var(--border);padding:28px 26px;border-radius:4px;border-top:4px solid var(--navy);background:var(--navy);">
           <div style="font-size:22px;margin-bottom:10px;">🌍</div>
@@ -648,7 +648,7 @@
       <div class="reveal">
         <div class="eye"><div class="ebar"></div><span class="etxt" data-id="net-eye">Our Network</span></div>
         <h2 class="h2" data-id="net-h2">A <strong>Two-Continent</strong> Ecosystem</h2>
-        <p class="para" data-id="net-para">Active relationships across Korea's space ecosystem and Europe's leading aerospace clusters, enabling rapid introductions and credible access.</p>
+        <p class="para" data-id="net-para">Active relationships across Korea\'s space ecosystem and Europe\'s leading aerospace clusters, enabling rapid introductions and credible access.</p>
       </div>
       <div class="net-grid reveal">
         <div class="net-region net-korea">
@@ -773,7 +773,7 @@
       'nav-contact':    'Contact',
       // HERO
       'hero-tag':       'Zug, Switzerland',
-      'hero-h1':        "Bridging Korea's <br><strong>Space Technology</strong><br>with <span class='acc'>European Industry</span>",
+      'hero-h1':        "Bridging Korea\'s <br><strong>Space Technology</strong><br>with <span class='acc'>European Industry</span>",
       'hero-p':         "Meravi is a Swiss-based strategic platform connecting Korean space and deep-tech companies with European industry partners, space agencies, and capital markets.",
       'hero-btn1':      'Partner With Us',
       'hero-btn2':      'Explore Services',
@@ -783,7 +783,7 @@
       // ABOUT
       'about-eye':      'About Meravi',
       'about-h2':       'A Strategic <strong>Bridge</strong><br>in the New Space Economy',
-      'about-p1':       'Meravi is a strategic international partner connecting Korean space and deep‑tech innovators with Europe's aerospace industry, space agencies, and private capital.',
+      'about-p1':       'Meravi is a strategic international partner connecting Korean space and deep-tech innovators with Europe\'s aerospace industry, space agencies, and private capital.',
       'about-p2':       'Our founders combine expertise across global finance, energy and telecommunications ecosystem in Switzerland.',
       'about-p1-title': 'Swiss Base',
       'about-p1-desc':  'Political neutrality and proximity to European aerospace clusters',
@@ -961,13 +961,225 @@
       // FOOTER
       'foot-copy':      '© 2025 메라비 · 한국-유럽 우주 브릿지 · All Rights Reserved',
       'foot-ch':        'Sinserstrasse 65, 6330 Cham, 스위스',
+    },
+    de: {
+      // NAV
+      'nav-about':      'Über uns',
+      'nav-services':   'Leistungen',
+      'nav-opp':        'Chancen',
+      'nav-network':    'Netzwerk',
+      'nav-insights':   'Einblicke',
+      // INSIGHT THAT ELEVATES (DE)
+      'ins-eye': 'Insight That Elevates',
+      'ins-h2': 'Sieben Wege, wie wir Ihre <strong>Raumfahrtstrategie</strong> auf das nächste Level heben',
+      'ins-para': 'Von strategischer Positionierung bis hin zu Full-Spectrum-Marketing — Meravi bringt Intelligenz, Narrativ und Dynamik in jede Phase Ihrer Erschließung des europäischen Raumfahrtmarkts.',
+      'ins1-label':'Strategischer Partner','ins1-t':'Experten für Raumfahrtstrategien','ins1-d':'Wir positionieren Ihr Unternehmen als bevorzugten Partner im europäischen Luft- und Raumfahrt-Ökosystem — mit präziser strategischer Ausrichtung.',
+      'ins2-label':'Sektorspezialist','ins2-t':'Branchenspezifische Einblicke','ins2-d':'Tiefgreifende Raumfahrtstrategie, aufgebaut auf jahrelanger Branchenintelligenz — wir sprechen die Sprache der Luft- und Raumfahrt sowie des Deep-Tech.',
+      'ins3-label':'Marktintelligenz','ins3-t':'Einblicke, die erheben','ins3-d':'Marktreife Dynamik, die Rohdaten in entscheidende strategische Vorteile entlang des Korea–Europa-Korridors verwandelt.',
+      'ins4-label':'Wachstumsbeschleuniger','ins4-t':'Wachstum in der Raumfahrt beschleunigen','ins4-d':'Wir skalieren Raumfahrtunternehmen vom Konzept zur kommerziellen Realität — getrieben durch unser europäisches Netzwerk und unsere Kapitalverbindungen.',
+      'ins5-label':'Narrativ & Marke','ins5-t':'Geschichten, die begeistern','ins5-d':'Wir entwickeln Markenbotschaften und Positionierungen, die bei europäischen Partnern, Investoren und Luft- und Raumfahrtinstitutionen Anklang finden.',
+      'ins6-label':'Thought Leadership','ins6-t':'Klarheit für den Kosmos','ins6-d':'Wir gestalten den Raumfahrtdiskurs und bauen Thought Leadership auf, das Ihr Unternehmen als vertrauenswürdige Stimme in der globalen Raumfahrtwirtschaft etabliert.',
+      'ins7-label':'Full-Spectrum-Partner','ins7-t':'Ganzheitliche Begleitung','ins7-d':'Vollständiges Raumfahrtmarketing und integrierte Strategie — von der ersten Vorstellung bis zur langfristigen Marktpräsenz liefert Meravi an jedem Kontaktpunkt.',
+      'nav-contact':    'Kontakt',
+      // HERO
+      'hero-tag':       'Zug, Schweiz',
+      'hero-h1':        "Koreanische <br><strong>Raumfahrttechnologie</strong><br>trifft auf <span class='acc'>europäische Industrie</span>",
+      'hero-p':         "Meravi ist eine in der Schweiz ansässige strategische Plattform, die koreanische Raumfahrt- und Deep-Tech-Unternehmen mit europäischen Industriepartnern, Raumfahrtbehörden und Kapitalmärkten verbindet.",
+      'hero-btn1':      'Jetzt Partner werden',
+      'hero-btn2':      'Leistungen entdecken',
+      'hero-stat1-l':   'Europäische Märkte',
+      'hero-stat2-l':   'Exklusive Brücke',
+      'hero-stat3-l':   'Marktzugang',
+      // ABOUT
+      'about-eye':      'Über Meravi',
+      'about-h2':       'Eine strategische <strong>Brücke</strong><br>in der New-Space-Ökonomie',
+      'about-p1':       'Meravi ist ein strategischer internationaler Partner, der koreanische Raumfahrt- und Deep-Tech-Innovatoren mit der europäischen Luft- und Raumfahrtindustrie, Raumfahrtbehörden und privatem Kapital verbindet.',
+      'about-p2':       'Unsere Gründer vereinen Expertenwissen aus den Bereichen globale Finanzen, Energie und Telekommunikation — verankert in der Schweiz.',
+      'about-p1-title': 'Schweizer Standort',
+      'about-p1-desc':  'Politische Neutralität und Nähe zu europäischen Luft- und Raumfahrt-Clustern',
+      'about-p2-title': 'Rechtssicherheit',
+      'about-p2-desc':  'Robuster Schweizer Rechtsrahmen für internationale Partnerschaften und Investitionen',
+      'about-p3-title': 'Ökosystem-Zugang',
+      'about-p3-desc':  'Direktes Netzwerk, das die koreanische Raumfahrtindustrie mit führenden europäischen Luft- und Raumfahrtorganisationen verbindet',
+      'badge1-label':   'Domizil',
+      'badge1-val':     'Zug, Schweiz',
+      'badge1-desc':    'Schweizer Technologie- und Finanzzentrum',
+      'badge2-label':   'Positionierung',
+      'badge2-val':     'Strategischer internationaler Partner in der Raumfahrtwirtschaft',
+      // SERVICES
+      'svc-eye':        'Unsere Leistungen',
+      'svc-h2':         'Umfassende Lösungen für den <strong>Marktzugang</strong>',
+      'svc-para':       'Von der Markteintrittsstrategie über langfristige Vertriebsrepräsentation bis hin zum Kapitalzugang — End-to-End-Unterstützung für koreanische Unternehmen beim Eintritt in Europa und für europäische Organisationen auf der Suche nach koreanischer Technologie.',
+      's1-t':'Europäischer Markteintritt','s1-d':'Wir helfen koreanischen Raumfahrt- und Deep-Tech-Unternehmen, eine glaubwürdige Präsenz auf europäischen Märkten aufzubauen.','s1-l1':'Markteintrittsstrategie','s1-l2':'Partneridentifikation','s1-l3':'Vertriebsrepräsentation','s1-l4':'Geschäftsentwicklung',
+      's2-t':'Strategische Partnerschaften','s2-d':'Wir knüpfen nachhaltige Beziehungen im gesamten europäischen Luft- und Raumfahrt-Ökosystem.','s2-l1':'Partneridentifikation','s2-l2':'Joint-Venture-Sondierung','s2-l3':'Konsortiumsbildung','s2-l4':'Herstellerzugang',
+      's3-t':'Technologie-Sourcing','s3-d':'Wir unterstützen europäische Organisationen dabei, koreanische Technologiepartner zu identifizieren und zu erschließen.','s3-l1':'Identifikation koreanischer Partner','s3-l2':'Lieferantenbewertung','s3-l3':'Produktionsbeziehungen','s3-l4':'F&E-Kooperation',
+      's4-t':'Strategische Beratung','s4-d':'Wir reduzieren die Komplexität des Eintritts in die europäische Raumfahrtindustrie durch kompetente Beratung.','s4-l1':'Raumfahrtmarktanalyse','s4-l2':'Marktintelligenz','s4-l3':'Regulatorischer Überblick','s4-l4':'Partnerschaftsstrategie',
+      's5-t':'Kapital & Investment','s5-d':'Wir verbinden Raumfahrtunternehmen über unser Finanznetzwerk mit dem europäischen Investmentökosystem.','s5-l1':'VC-Vermittlungen','s5-l2':'Strategische Investoren','s5-l3':'EU-Förderzugang','s5-l4':'Investmentpartnerschaften',
+      's6-t':'Full-Spectrum-Support','s6-d':'Vollständige Begleitung von der ersten Vorstellung bis zum langfristigen Partnerschaftsmanagement und zur laufenden Repräsentation.','s6-l1':'Langfristige Repräsentation','s6-l2':'Marktbeobachtung','s6-l3':'Beziehungsmanagement','s6-l4':'Post-Deal-Integration',
+      // OPPORTUNITY
+      'opp-kr-eye':     'Korea',
+      'opp-kr-name':    'Stärken Koreas',
+      'opp-eu-eye':     'Europa',
+      'opp-eu-name':    'Europäisches Ökosystem',
+      'ok1-t':'Satellitenentwicklung','ok1-d':'Weltweit führende Fähigkeiten in der Satellitenplattform- und Nutzlastentwicklung mit kurzen Entwicklungszyklen',
+      'ok2-t':'Luft- und Raumfahrtfertigung','ok2-d':'Präzisionsfertigung und Zulieferung von Luft- und Raumfahrtkomponenten nach globalen Qualitätsstandards',
+      'ok3-t':'Halbleiter & KI','ok3-d':'Fortschrittliche Technologien mit direkter Anwendbarkeit in der Raumfahrt und Satellitentechnik',
+      'ok4-t':'Batterien & Antrieb','ok4-d':'Modernste Energie- und Antriebssysteme für Raumfahrzeuge der nächsten Generation',
+      'oe1-t':'Etablierte Industrie','oe1-d':'Führende Luft- und Raumfahrtunternehmen, Raumfahrtbehörden und Forschungsinstitutionen',
+      'oe2-t':'Raumfahrtinfrastruktur','oe2-d':'Wachsende Investitionen in Satellitenkonstallationen, Startdienste und Bodensegmente in ganz Europa',
+      'oe3-t':'Kapitalmärkte','oe3-d':'Weitreichende Private-Equity-, Venture-Capital- und strategische Unternehmens-Investmentnetzwerke',
+      'oe4-t':'Regulierungsrahmen','oe4-d':'Ausgereifter ESA- und EU-Politikrahmen, der strukturierte internationale Zusammenarbeit ermöglicht',
+      // NETWORK
+      'net-eye':        'Unser Netzwerk',
+      'net-h2':         'Ein <strong>zwei-kontinentales</strong> Ökosystem',
+      'net-para':       'Aktive Beziehungen innerhalb des koreanischen Raumfahrt-Ökosystems und der führenden europäischen Luft- und Raumfahrt-Cluster ermöglichen schnelle Vermittlungen und verlässlichen Zugang.',
+      'net-kr-name':    'Korea',
+      'net-eu-name':    'Europa',
+      'net-kr-desc':    'Von etablierten Raumfahrtunternehmen bis hin zu Spitzen-Deep-Tech-Innovatoren — mit Schwerpunkt auf Satellitensystemen, Starttechnologie und KI-gestützten Raumfahrtanwendungen.',
+      'tag1':'Luft- und Raumfahrtunternehmen','tag2':'Hardware-Zulieferer','tag3':'Forschungseinrichtungen','tag4':'Halbleiter','tag5':'Elektronik','tag6':'Deep-Tech-Startups',
+      // INSIGHTS
+      'ins-eye':        'Einblicke & Analysen',
+      'ins-h2':         'Thought Leadership im <strong>New Space</strong>',
+      'ins-para':       'Studien und Analysen, die Meravi als maßgebliche Stimme zu den Korea–Europa-Raumfahrtdynamiken und internationalen Partnerschaftsmöglichkeiten positionieren.',
+      'i1-tag':'Marktüberblick','i1-ttl':'Koreanische Raumfahrtindustrie: Kompetenzen & europäische Marktrelevanz','i1-body':'Eine Analyse der Stärken des koreanischen Raumfahrtsektors und der spezifischen Lücken, die er in europäischen Lieferketten und kommerziellen Raumfahrtprogrammen schließen kann.',
+      'i2-tag':'Branchentrend','i2-ttl':'Europäischer Raumfahrtmarkt: Beschaffungsverschiebungen und neue Akteure','i2-body':'Wie ESA, nationale Behörden und kommerzielle Hauptauftragnehmer ihre Lieferantenbasis diversifizieren — und was dies für koreanische Unternehmen bedeutet.',
+      'i3-tag':'Strategische Analyse','i3-ttl':'Korea–Europa-Raumfahrtkooperation: Die aufkommende Chance','i3-body':'Warum das Zusammentreffen von Koreas technologischem Momentum und Europas industriellem Bedarf ein einmaliges Partnerschaftsfenster öffnet.',
+      // CONTACT
+      'con-eye':        'Kontakt',
+      'con-h2':         'Starten Sie das <strong>Gespräch</strong>',
+      'con-intro':      'Ob koreanisches Unternehmen auf der Suche nach europäischem Marktzugang, europäische Organisation auf der Suche nach koreanischen Technologiepartnern oder Investor, der den Raumfahrtsektor erkundet — Meravi ist Ihr strategischer Partner.',
+      'con-l1':         'Standort','con-v1':'Sinserstrasse 65, 6330 Cham, Schweiz','con-v1b':"Im Herzen der Schweizer Technologie- und Finanzwelt",
+      'con-l2':         'E-Mail','con-v2':'info@meravi.ch',
+      'con-l3':         'LinkedIn','con-v3':'LinkedIn',
+      'con-l4':         'Abdeckung','con-v4':'Korea ↔ Schweiz · Deutschland · Frankreich · Italien · UK · Österreich · Polen',
+      'f-name':         'Vollständiger Name','f-org':'Organisation','f-email':'E-Mail-Adresse','f-type':'Anfragetyp',
+      'f-ph-name':      'Ihr Name','f-ph-org':'Unternehmen / Institution','f-ph-email':'ihre@email.com','f-ph-msg':'Beschreiben Sie Ihre Ziele und wie Meravi Sie unterstützen kann…',
+      'f-opt0':         'Anfragetyp auswählen',
+      'f-opt1':         'Europäischer Markteintritt (Koreanisches Unternehmen)',
+      'f-opt2':         'Technologie-Sourcing (Europäische Organisation)',
+      'f-opt3':         'Strategische Partnerschaft',
+      'f-opt4':         'Kapital & Investment',
+      'f-opt5':         'Beratungsleistungen',
+      'f-opt6':         'Investor Relations',
+      'f-opt7':         'Allgemeine Anfrage',
+      'f-msg':          'Nachricht','f-submit':'Anfrage senden',
+      // FOOTER
+      'foot-copy':      '© 2025 Meravi · Korea–Europa Raumfahrtbrücke · Alle Rechte vorbehalten',
+      'foot-ch':        'Sinserstrasse 65, 6330 Cham, Schweiz',
+    },
+    fr: {
+      // NAV
+      'nav-about':      'À propos',
+      'nav-services':   'Services',
+      'nav-opp':        'Opportunités',
+      'nav-network':    'Réseau',
+      'nav-insights':   'Analyses',
+      // INSIGHT THAT ELEVATES (FR)
+      'ins-eye': 'Insight That Elevates',
+      'ins-h2': 'Sept façons d\'<strong>élever</strong><br>votre stratégie spatiale',
+      'ins-para': 'Du positionnement stratégique au marketing intégral — Meravi apporte intelligence, récit et dynamisme à chaque étape de votre entrée sur le marché spatial européen.',
+      'ins1-label':'Partenaire stratégique','ins1-t':'Experts en stratégie spatiale','ins1-d':'Nous positionnons votre entreprise comme le partenaire de référence au sein de l\'écosystème aérospatial européen, avec un avantage stratégique précis.',
+      'ins2-label':'Spécialiste du secteur','ins2-t':'Expertise sectorielle approfondie','ins2-d':'Une stratégie spatiale de fond, issue d\'années d\'intelligence sectorielle — nous maîtrisons le langage de l\'aérospatial et du deep-tech.',
+      'ins3-label':'Intelligence de marché','ins3-t':'Des analyses qui élèvent','ins3-d':'Une dynamique prête pour le marché qui transforme les données brutes en avantage stratégique décisif tout au long du corridor Corée–Europe.',
+      'ins4-label':'Accélérateur de croissance','ins4-t':'Accélérer la croissance spatiale','ins4-d':'Nous faisons évoluer les entreprises spatiales du concept à la réalité commerciale, portés par notre réseau européen et nos connexions avec les capitaux.',
+      'ins5-label':'Récit & Marque','ins5-t':'Des récits qui inspirent','ins5-d':'Nous concevons les histoires de marque et les positionnements qui résonnent auprès des partenaires européens, des investisseurs et des institutions aérospatiales.',
+      'ins6-label':'Leadership éclairé','ins6-t':'Clarté pour le cosmos','ins6-d':'Nous façonnons le discours spatial et développons une autorité d\'opinion qui positionne votre entreprise comme une voix de confiance dans l\'économie spatiale mondiale.',
+      'ins7-label':'Partenaire intégral','ins7-t':'Élévation de bout en bout','ins7-d':'Marketing spatial complet et stratégie intégrée — de la première introduction à une présence durable sur le marché, Meravi vous accompagne à chaque point de contact.',
+      'nav-contact':    'Contact',
+      // HERO
+      'hero-tag':       'Zoug, Suisse',
+      'hero-h1':        "La <strong>technologie spatiale</strong><br>coréenne au service de<br><span class='acc'>l\'industrie européenne</span>",
+      'hero-p':         "Meravi est une plateforme stratégique basée en Suisse qui connecte les entreprises spatiales et deep-tech coréennes avec les partenaires industriels européens, les agences spatiales et les marchés de capitaux.",
+      'hero-btn1':      'Devenir partenaire',
+      'hero-btn2':      'Découvrir nos services',
+      'hero-stat1-l':   'Marchés européens',
+      'hero-stat2-l':   'Pont dédié',
+      'hero-stat3-l':   'Accès au marché',
+      // ABOUT
+      'about-eye':      'À propos de Meravi',
+      'about-h2':       'Un <strong>pont</strong> stratégique<br>dans la nouvelle économie spatiale',
+      'about-p1':       'Meravi est un partenaire international stratégique qui connecte les innovateurs coréens du spatial et du deep-tech avec l\'industrie aérospatiale européenne, les agences spatiales et les capitaux privés.',
+      'about-p2':       'Nos fondateurs conjuguent une expertise dans la finance internationale, l\'énergie et les télécommunications, ancrée en Suisse.',
+      'about-p1-title': 'Ancrage suisse',
+      'about-p1-desc':  'Neutralité politique et proximité avec les clusters aérospatiaux européens',
+      'about-p2-title': 'Clarté juridique',
+      'about-p2-desc':  'Un cadre juridique suisse solide pour les partenariats internationaux et les investissements',
+      'about-p3-title': 'Accès à l\'écosystème',
+      'about-p3-desc':  'Un réseau direct reliant l\'industrie spatiale coréenne aux principales organisations aérospatiales européennes',
+      'badge1-label':   'Domicile',
+      'badge1-val':     'Zoug, Suisse',
+      'badge1-desc':    'Pôle suisse de technologie et de finance',
+      'badge2-label':   'Positionnement',
+      'badge2-val':     'Partenaire international stratégique dans l\'économie spatiale',
+      // SERVICES
+      'svc-eye':        'Nos services',
+      'svc-h2':         'Solutions complètes d\'<strong>accès au marché</strong>',
+      'svc-para':       'De la stratégie d\'entrée sur le marché à la représentation commerciale à long terme et à l\'accès aux capitaux — un accompagnement de bout en bout pour les entreprises coréennes entrant en Europe et pour les organisations européennes à la recherche de technologies coréennes.',
+      's1-t':'Entrée sur le marché européen','s1-d':'Nous aidons les entreprises coréennes du spatial et du deep-tech à s\'établir durablement sur les marchés européens.','s1-l1':'Stratégie d\'entrée sur le marché','s1-l2':'Identification de partenaires','s1-l3':'Représentation commerciale','s1-l4':'Développement des affaires',
+      's2-t':'Partenariats stratégiques','s2-d':'Nous tissons des relations durables à travers l\'ensemble de l\'écosystème aérospatial et spatial européen.','s2-l1':'Identification de partenaires','s2-l2':'Exploration de coentreprises','s2-l3':'Constitution de consortiums','s2-l4':'Accès aux fabricants',
+      's3-t':'Sourcing technologique','s3-d':'Nous aidons les organisations européennes à identifier et à mobiliser des partenaires technologiques coréens.','s3-l1':'Identification de partenaires coréens','s3-l2':'Évaluation des fournisseurs','s3-l3':'Relations industrielles','s3-l4':'Collaboration en R&D',
+      's4-t':'Conseil stratégique','s4-d':'Nous réduisons la complexité de l\'entrée dans l\'industrie spatiale européenne grâce à une expertise reconnue.','s4-l1':'Analyse du secteur spatial','s4-l2':'Intelligence de marché','s4-l3':'Aperçu réglementaire','s4-l4':'Stratégie de partenariat',
+      's5-t':'Capital & Investissement','s5-d':'Nous connectons les entreprises spatiales à l\'écosystème d\'investissement européen via notre réseau financier.','s5-l1':'Introductions auprès de VC','s5-l2':'Investisseurs corporate','s5-l3':'Accès aux financements UE','s5-l4':'Partenariats d\'investissement',
+      's6-t':'Accompagnement intégral','s6-d':'Couverture complète, de la première introduction à la gestion de partenariats à long terme et à la représentation continue.','s6-l1':'Représentation à long terme','s6-l2':'Veille de marché','s6-l3':'Gestion des relations','s6-l4':'Intégration post-accord',
+      // OPPORTUNITY
+      'opp-kr-eye':     'Corée',
+      'opp-kr-name':    'Atouts de la Corée',
+      'opp-eu-eye':     'Europe',
+      'opp-eu-name':    'Écosystème européen',
+      'ok1-t':'Développement de satellites','ok1-d':'Des capacités de classe mondiale en plateformes satellitaires et charges utiles, avec des cycles de développement rapides',
+      'ok2-t':'Fabrication aérospatiale','ok2-d':'Fabrication de précision et fourniture de composants aérospatiaux conformes aux normes de qualité mondiales',
+      'ok3-t':'Semi-conducteurs & IA','ok3-d':'Technologies avancées directement applicables aux systèmes spatiaux et aux satellites',
+      'ok4-t':'Batteries & Propulsion','ok4-d':'Systèmes d\'énergie et de propulsion de pointe pour les engins spatiaux de prochaine génération',
+      'oe1-t':'Industrie établie','oe1-d':'Grands fabricants aérospatiaux, agences spatiales et instituts de recherche de premier plan',
+      'oe2-t':'Infrastructure spatiale','oe2-d':'Investissements croissants dans les constellations de satellites, les services de lancement et les segments sol à travers l\'Europe',
+      'oe3-t':'Marchés de capitaux','oe3-d':'Réseaux profonds de private equity, de capital-risque et d\'investissements corporate stratégiques',
+      'oe4-t':'Cadre réglementaire','oe4-d':'Cadre politique ESA et UE mature, favorisant la coopération internationale structurée',
+      // NETWORK
+      'net-eye':        'Notre réseau',
+      'net-h2':         'Un écosystème sur <strong>deux continents</strong>',
+      'net-para':       'Des relations actives au sein de l\'écosystème spatial coréen et des principaux clusters aérospatiaux européens, pour des introductions rapides et un accès fiable.',
+      'net-kr-name':    'Corée',
+      'net-eu-name':    'Europe',
+      'net-kr-desc':    'Des grands acteurs établis du spatial aux innovateurs deep-tech de pointe — couvrant les systèmes satellitaires, les technologies de lancement et les applications spatiales pilotées par l\'IA.',
+      'tag1':'Entreprises aérospatiales','tag2':'Fournisseurs de matériel','tag3':'Instituts de recherche','tag4':'Semi-conducteurs','tag5':'Électronique','tag6':'Startups deep-tech',
+      // INSIGHTS
+      'ins-eye':        'Analyses & Études',
+      'ins-h2':         'Leadership éclairé dans le <strong>New Space</strong>',
+      'ins-para':       'Études et analyses positionnant Meravi comme une référence sur les dynamiques de l\'industrie spatiale Corée–Europe et les opportunités de partenariat international.',
+      'i1-tag':'Vue d\'ensemble du marché','i1-ttl':'Industrie spatiale coréenne : compétences et adéquation au marché européen','i1-body':'Une analyse des atouts du secteur spatial coréen et des lacunes spécifiques qu\'il peut combler dans les chaînes d\'approvisionnement et programmes spatiaux commerciaux européens.',
+      'i2-tag':'Tendance sectorielle','i2-ttl':'Marché spatial européen : évolution des achats et nouveaux entrants','i2-body':'Comment l\'ESA, les agences nationales et les maîtres d\'œuvre commerciaux diversifient leurs bases de fournisseurs — et ce que cela implique pour les entreprises coréennes.',
+      'i3-tag':'Analyse stratégique','i3-ttl':'Coopération spatiale Corée–Europe : une opportunité émergente','i3-body':'Pourquoi la convergence de l\'élan technologique coréen et de la demande industrielle européenne crée une fenêtre de partenariat unique en son genre.',
+      // CONTACT
+      'con-eye':        'Contact',
+      'con-h2':         'Engageons la <strong>conversation</strong>',
+      'con-intro':      'Que vous soyez une entreprise coréenne cherchant à accéder au marché européen, une organisation européenne à la recherche de partenaires technologiques coréens, ou un investisseur explorant le secteur spatial — Meravi est votre partenaire stratégique.',
+      'con-l1':         'Adresse','con-v1':'Sinserstrasse 65, 6330 Cham, Suisse','con-v1b':"Au cœur de la technologie et de la finance suisses",
+      'con-l2':         'E-mail','con-v2':'info@meravi.ch',
+      'con-l3':         'LinkedIn','con-v3':'LinkedIn',
+      'con-l4':         'Couverture','con-v4':'Corée ↔ Suisse · Allemagne · France · Italie · Royaume-Uni · Autriche · Pologne',
+      'f-name':         'Nom complet','f-org':'Organisation','f-email':'Adresse e-mail','f-type':'Type de demande',
+      'f-ph-name':      'Votre nom','f-ph-org':'Entreprise / Institution','f-ph-email':'votre@email.com','f-ph-msg':'Décrivez vos objectifs et la manière dont Meravi peut vous accompagner…',
+      'f-opt0':         'Sélectionner le type de demande',
+      'f-opt1':         'Entrée sur le marché européen (entreprise coréenne)',
+      'f-opt2':         'Sourcing technologique (organisation européenne)',
+      'f-opt3':         'Partenariat stratégique',
+      'f-opt4':         'Capital & Investissement',
+      'f-opt5':         'Services de conseil',
+      'f-opt6':         'Relations investisseurs',
+      'f-opt7':         'Demande générale',
+      'f-msg':          'Message','f-submit':'Envoyer la demande',
+      // FOOTER
+      'foot-copy':      '© 2025 Meravi · Pont spatial Corée–Europe · Tous droits réservés',
+      'foot-ch':        'Sinserstrasse 65, 6330 Cham, Suisse',
     }
   };
 
   function setLang(lang) {
     const t = translations[lang];
-    document.getElementById('btn-en').classList.toggle('active', lang==='en');
-    document.getElementById('btn-ko').classList.toggle('active', lang==='ko');
+    ['en','ko','de','fr'].forEach(l => {
+      const b = document.getElementById('btn-'+l);
+      if(b) b.classList.toggle('active', lang===l);
+    });
 
     // helper: set innerHTML of first element matching selector
     const s = (sel, key) => { const el = document.querySelector(sel); if(el && t[key]) el.innerHTML = t[key]; };
@@ -1062,4 +1274,10 @@
         document.getElementById('f-type-input').selectedIndex = 0;
         document.getElementById('f-msg-input').value = '';
         setTimeout(function(){ btn.disabled=false; btn.textContent='Send Inquiry'; btn.style.background=''; }, 4000);
-      } else { btn.textContent = 'Send Inquiry'; btn.disabled = fa
+      } else { btn.textContent = 'Send Inquiry'; btn.disabled = false; }
+    })
+    .catch(function(){ btn.textContent = 'Send Inquiry'; btn.disabled = false; });
+  }
+</script>
+</body>
+</html>
